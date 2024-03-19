@@ -73,7 +73,7 @@ endif
 
 if exists(':Copilot')
     hi CopilotSuggestion guifg=#555555 ctermfg=8
-end
+endif
 
 if exists(':Lazy')
     hi LazyNormal guibg=#062329 guifg=#d1b897
