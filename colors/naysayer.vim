@@ -65,7 +65,7 @@ hi netrwCursor    guibg=#d1b897 guifg=#062329
 
 let python_no_doctest_highlight = 0
 " Change the color of docstrings in Python
-hi pythonDocstring guifg=#15ed05
+" hi pythonDocstring guifg=#15ed05
 
 if exists(':Telescope')
     hi TelescopeSelection guibg=#062329 guifg=#d1b897
@@ -74,3 +74,9 @@ endif
 if exists(':Copilot')
     hi CopilotSuggestion guifg=#555555 ctermfg=8
 end
+
+if exists(':Lazy')
+    hi LazyNormal guibg=#062329 guifg=#d1b897
+    hi LazyButton guibg=#062329 guifg=#d1b897
+    hi LazyButtonActive guifg=#062329 guibg=#d1b897
+endif
