@@ -9,6 +9,8 @@ At the moment, naysayer.vim configured to work with:
 - [trouble.nvim](https://github.com/folke/trouble.nvim)
 - [Copilot.vim](https://github.com/github/copilot.vim)
 
+Soothing colors for lsp diagnostics messages.
+
 ### Docstring as comments
 Using [treesitter](https://github.com/nvim-treesitter/nvim-treesitter), the multiline strings used for documentation are highlighted as comments rather than strings. At the moment, this is only applied to Python files.
 
