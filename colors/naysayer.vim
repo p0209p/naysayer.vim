@@ -9,7 +9,6 @@ set termguicolors
 set t_md=
 
 hi! link Normal         NormalFloat
-hi! link Cursor         CursorLineNr
 hi! link NormalFloat    CursorLineNr
 hi! link SignColumn     CursorLineNr
 hi! link CursorLine     CursorLineNr
@@ -24,9 +23,8 @@ hi! link Statement      Function
 hi! link Keyword        Function
 
 hi Normal         guifg=#d1b897 guibg=#062329
-hi Cursor         guibg=#ffffff
 hi SignColumn     guibg=#062329
-hi CursorLine     guibg=#0000ff
+hi CursorLine     guibg=#062329 guifg=#d1b897
 hi StatusLine     guibg=#062329 guifg=#d1b897 gui=NONE
 hi StatusLineNC   guibg=#d1b897 guifg=#062329
 hi VertSplit      guifg=#d1b897 guibg=#062329
@@ -66,6 +64,10 @@ hi DiagnosticError guifg=#c74138 guibg=#062329
 hi DiagnosticUnderlineError guisp=#c74138
 hi DiagnosticHint guifg=#c7a538 guibg=#062329
 
+hi LazyNormal guibg=#062329 guifg=#d1b897
+hi LazyButton guibg=#062329 guifg=#d1b897
+hi LazyButtonActive guifg=#062329 guibg=#d1b897
+
 if exists(':Telescope')
     hi TelescopeSelection guibg=#062329 guifg=#d1b897
 endif
@@ -74,9 +76,14 @@ if exists(':Copilot')
     hi CopilotSuggestion guifg=#555555 ctermfg=8
 endif
 
-hi LazyNormal guibg=#062329 guifg=#d1b897
-hi LazyButton guibg=#062329 guifg=#d1b897
-hi LazyButtonActive guifg=#062329 guibg=#d1b897
+if exists(':Mason')
+    hi MasonNormal guibg=#062329 guifg=#d1b897
+    hi MasonHeading guibg=#062329 guifg=#d1b897
+endif
+
+if exists(':Trouble')
+    hi TroublePreview guifg=#062329 guibg=#d1b897
+endif
 
 " if exists(':Lazy')
 "     hi LazyNormal guibg=#062329 guifg=#d1b897

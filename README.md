@@ -8,6 +8,7 @@ naysayer.vim is a Vim/Neovim colorscheme that is based on Jonathan Blow's Emacs 
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [trouble.nvim](https://github.com/folke/trouble.nvim)
 - [Copilot.vim](https://github.com/github/copilot.vim)
+- [mason.nvim](https://github.com/williamboman/mason.nvim)
 
 Soothing colors for lsp diagnostics messages.
 
