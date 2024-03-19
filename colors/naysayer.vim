@@ -62,6 +62,9 @@ hi Visual         guifg=#062329 guibg=#d1b897
 hi Directory      guibg=#062329 guifg=#d1b897 gui=NONE
 hi Statement      guifg=#d1b897 gui=NONE
 hi netrwCursor    guibg=#d1b897 guifg=#062329
+hi DiagnosticError guifg=#c74138 guibg=#062329
+hi DiagnosticUnderlineError guisp=#c74138
+hi DiagnosticHint guifg=#c7a538 guibg=#062329
 
 if exists(':Telescope')
     hi TelescopeSelection guibg=#062329 guifg=#d1b897
