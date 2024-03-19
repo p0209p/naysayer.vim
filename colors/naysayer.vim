@@ -77,13 +77,8 @@ endif
 
 if exists(':Lazy')
     hi LazyNormal guibg=#062329 guifg=#d1b897
-endif
-
-if exists(':Lazy')
     hi LazyButton guibg=#062329 guifg=#d1b897
-endif
-
-if exists(':Lazy')
     hi LazyButtonActive guifg=#062329 guibg=#d1b897
 endif
 
+colorscheme naysayer
