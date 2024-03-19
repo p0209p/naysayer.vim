@@ -76,15 +76,10 @@ if exists(':Copilot')
     hi CopilotSuggestion guifg=#555555 ctermfg=8
 endif
 
-if exists(':Mason')
-    hi MasonNormal guibg=#062329 guifg=#d1b897
-    hi MasonHeading guibg=#062329 guifg=#d1b897
-endif
+hi MasonNormal guibg=#062329 guifg=#d1b897
+hi MasonHeading guibg=#062329 guifg=#d1b897
 
-if exists(':Trouble')
-    hi TroublePreview guifg=#062329 guibg=#d1b897
-endif
-
+hi TroublePreview guifg=#062329 guibg=#d1b897
 " if exists(':Lazy')
 "     hi LazyNormal guibg=#062329 guifg=#d1b897
 "     hi LazyButton guibg=#062329 guifg=#d1b897
