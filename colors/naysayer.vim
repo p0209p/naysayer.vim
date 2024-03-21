@@ -80,6 +80,9 @@ hi MasonNormal guibg=#062329 guifg=#d1b897
 hi MasonHeading guibg=#062329 guifg=#d1b897
 
 hi TroublePreview guifg=#062329 guibg=#d1b897
+
+hi tomlTable guifg=#d1b897
+
 " if exists(':Lazy')
 "     hi LazyNormal guibg=#062329 guifg=#d1b897
 "     hi LazyButton guibg=#062329 guifg=#d1b897
